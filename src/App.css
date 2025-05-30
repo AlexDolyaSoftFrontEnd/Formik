@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form__title {
+  text-align: center;
+}
+
+.login-form__field {
+  margin-bottom: 1rem;
+}
+
+.login-form__label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.login-form__input {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.login-form__error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.login-form__button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
